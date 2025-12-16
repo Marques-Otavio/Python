@@ -1,0 +1,31 @@
+Questão 1 
+
+lista1 = []
+num = 1
+while num >=1 and num <=12:
+    num = int(input("Digite um numero entre um a 12, ou outro para cancelar "))
+    lista1.append(num)
+
+lista1.pop()
+print(lista1)
+
+lista2 = ["janeiro", "fevereiro","março","abril","maio", "junho", "julho","agosto","setembro","outubro","novembro", "dezembro",]
+    
+for i in range(0,len(lista1)):
+    posicao = lista1[i]
+    print(lista2[posicao-1])
+
+
+Questão 3
+
+for i in range (0, 8):
+   num=int(input("Informe um número(inteiro): "))
+   lista.append(num)
+print(lista)
+ 
+lista1=[]
+for i in range (len(lista)):
+   if lista[i] % 2 == 0:
+       lista1.append(lista[i])
+ 
+print(lista1)

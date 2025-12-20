@@ -1,4 +1,19 @@
-cpf_enviado_usuario = '74682489070'
+import re
+import sys
+
+entrada = input('Envie um CPF valido: ') 
+cpf_enviado_usuario = re.sub(
+    r'[^0-9]',
+    '', 
+    entrada
+)
+
+entrada_sequencial = entrada == entrada[0] * len(entrada)
+
+if entrada_sequencial:
+    print('Voce digitou uma entrada sequencial')
+    sys.exit()
+
 nove_digitos = cpf_enviado_usuario[:9]
 contador_regressivo = 10
 

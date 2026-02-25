@@ -8,4 +8,18 @@
 # O python conhece todos os módulos e pacotes presentes
 # nos caminhos de sys.path
 
-print('Este módulo se chama', __name__)
+
+
+#import sys
+#sys.path.append('/Users/DELL/Documents')
+
+import Aula97_auxiliar
+from Aula97_auxiliar import soma, variavel_modulo
+
+#print('Este módulo se chama', __name__)
+#print(*sys.path, sep='\n')
+
+print(Aula97_auxiliar.variavel_modulo)
+print(variavel_modulo)
+print(soma(2,3))
+print(Aula97_auxiliar.soma(2,3))

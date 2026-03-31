@@ -8,3 +8,17 @@
 # Você pode dar o nome que preferir para um
 # ambiente virtual, mas os mais comuns são:
 # venv env .venv .env
+
+'''
+    CRIAR VENV
+no terminal do vscode, utilizando o powershell, coloque:
+python -m venv venv (esse segundo venv e o nome da pasta/ambiente virtual)
+
+    Pastas Dentro da Pasta venv
+lib -> nela tem todas as coisas que instalamos de terceiros
+scripts -> pasta com os executaveis do python
+include -> vazio
+
+'''
+
+
